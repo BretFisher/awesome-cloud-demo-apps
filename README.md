@@ -30,6 +30,7 @@ This Awesome List is maintained by [@BretFisher](https://github.com/BretFisher).
 - [Worthsmith](https://github.com/dockersamples/wordsmith) - A traditional Web + API + DB app for randmoly generating words. Has Docker Compose and Kubernetes example YAML.
 - [Browncoat](https://github.com/BretFisher/browncoat) - A server app designed to fail in various ways for testing orchestration, healthchecks, and recovery. "It aims to misbehave"
 - [Stress](https://github.com/BretFisher/stress) - A simple set of container images for stressing CPU and memory. Useful for testing autoscaling and monitoring.
+- [Spring PetClient Sample Application](https://github.com/spring-projects/spring-petclinic) - The Spring PetClinic is an open-source sample application developed to demonstrate the database-oriented capabilities of Spring Boot, Spring MVC, and the Spring Data Framework. It’s based on this Spring stack and built with Maven.  [Blog Post](https://www.docker.com/blog/containerizing-a-legendary-petclinic-app-built-with-spring-boot/)  
 
 ## Complex Apps (4+ independent services/apps in solution)
 
@@ -37,6 +38,7 @@ This Awesome List is maintained by [@BretFisher](https://github.com/BretFisher).
 - [Sock Shop](https://github.com/microservices-demo/microservices-demo) - A microservices demo application that was maintained by Weaveworks. It's now deprecated, but should still work. Has Docker Compose and Kubernetes example YAML. Also has logging and monitoring YAML.
 - [Voting App](https://github.com/dockersamples/example-voting-app) - A distributed application that runs across multiple Docker containers. Has Docker Compose and Kubernetes example YAML.
 - [Azure Microservices Reference Implementation](https://github.com/mspnp/microservices-reference-implementation) - A reference implementation, along with additional demos like [AKS Fabrikam Drone Delivery demo](https://github.com/mspnp/aks-fabrikam-dronedelivery) that demonstrates a microservices architecture based on Azure Kubernetes Service (AKS).
+- [Microservices version of the Spring PetClinic](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of Spring Petclinic built with Spring Cloud and Netflix Eureka Server.  Also has Zipkin for Tracing, Prometheus & Grafana.  Grafana and Prometheus are included in the docker-compose.yml configuration, and applications have been instrumented with [MicroMeter](https://micrometer.io/) to collect JVM and custom business metrics. A JMeter load testing script is available to stress the application and generate metrics.
 
 ## Serverless Functions (might be purely serverless)
 
@@ -68,7 +70,7 @@ Want to contribute? Please read the [contribution guidelines](contributing.md). 
 Guidelines for submitting demos to this list:
 
 - Must be a working example app that can be deployed to a server or cloud
-- Must have a public repo with a open source license
+- Must have a public repo with an open-source license
 - Must and instructions on how to build and run
 - Ideally, has a deployment tutorial with it (but not required)
 - Can exist in multiple categories if it fits
