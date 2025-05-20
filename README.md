@@ -39,6 +39,7 @@ This Awesome List is maintained by [@BretFisher](https://github.com/BretFisher).
 - [Voting App](https://github.com/dockersamples/example-voting-app) - A distributed application that runs across multiple Docker containers. Has Docker Compose and Kubernetes example YAML.
 - [Azure Microservices Reference Implementation](https://github.com/mspnp/microservices-reference-implementation) - A reference implementation, along with additional demos like [AKS Fabrikam Drone Delivery demo](https://github.com/mspnp/aks-fabrikam-dronedelivery) that demonstrates a microservices architecture based on Azure Kubernetes Service (AKS).
 - [Microservices version of the Spring PetClinic](https://github.com/spring-petclinic/spring-petclinic-microservices) - Distributed version of Spring Petclinic built with Spring Cloud and Netflix Eureka Server.  Also has Zipkin for Tracing, Prometheus & Grafana.  Grafana and Prometheus are included in the docker-compose.yml configuration, and applications have been instrumented with [MicroMeter](https://micrometer.io/) to collect JVM and custom business metrics. A JMeter load testing script is available to stress the application and generate metrics.
+- [OpenTelemetry Astronomy Shop](https://github.com/open-telemetry/opentelemetry-demo) - a microservice-based distributed system intended to illustrate the implementation of OpenTelemetry in a near-real-world environment. Runs in Docker Compose and Kubernetes.
 
 ## Serverless Functions (might be purely serverless)
 
